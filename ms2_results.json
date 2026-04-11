@@ -1,0 +1,47 @@
+{
+  "Baseline (Emb+AvgPool)": {
+    "val_acc": 0.5616390705108643,
+    "val_loss": 1.652760624885559,
+    "best_epoch": 11,
+    "test_acc": 0.5662524329989519,
+    "test_f1": 0.5022272861558791,
+    "params": 1286175,
+    "train_time": 43.96334648132324
+  },
+  "baseline_lstm": {
+    "val_acc": 0.38276103138923645,
+    "val_loss": 2.1380774974823,
+    "best_epoch": 5,
+    "test_acc": 0.2120077855966462,
+    "test_f1": 0.10833709124691035,
+    "params": 1319199,
+    "train_time": 43.96334648132324
+  },
+  "bilstm_model": {
+    "val_acc": 0.558045506477356,
+    "val_loss": 1.6924976110458374,
+    "best_epoch": 5,
+    "test_acc": 0.567699755452413,
+    "test_f1": 0.4940513560096717,
+    "params": 1356319,
+    "train_time": 43.96334648132324
+  },
+  "baseline_withDroput_withoutLTSM": {
+    "val_acc": 0.5566480159759521,
+    "val_loss": 1.8138744831085205,
+    "best_epoch": 12,
+    "test_acc": 0.537655337625393,
+    "test_f1": 0.47649526024452554,
+    "params": 1299359,
+    "train_time": 3.910064697265625e-05
+  },
+  "DistilBERT": {
+    "val_acc": 0.5570473074913025,
+    "val_loss": 1.5649809837341309,
+    "best_epoch": 16,
+    "test_acc": 0.5625592653590857,
+    "test_f1": 0.3625291456620092,
+    "params": 66977311,
+    "train_time": 3911.114024877548
+  }
+}
