@@ -244,28 +244,19 @@ The following charts were generated in the notebook and support the analysis abo
 
 5. **Limited hyperparameter exploration:** Due to the long training times for DistilBERT (~65 min per run), we did not systematically tune learning rate, number of unfrozen layers, or epoch count. A hyperparameter search could yield further improvements.
 
-### Plan for Milestone 3 / Final Report
+### Future Work
 
-Based on these findings, we selected **DistilBERT** for further development. The decision is supported by its clear superiority on both accuracy (0.708) and macro F1 (0.621), demonstrating that pretrained language models provide a decisive advantage for this multi-class text classification task.
+Given more time and compute resources, several directions could further improve classification performance:
 
-**Planned improvements:**
+1. **Full-dataset training:** Training DistilBERT on 100% of the data instead of the 50% subset would increase exposure to minority classes and likely improve their F1 scores.
 
-1. **Full-dataset training:** Train DistilBERT on 100% of the training data instead of the 50% subset. This should particularly help minority classes that had limited training examples.
+2. **Further category merging:** The persistent HOME & LIVING / WELLNESS and ENTERTAINMENT / COMEDY confusion pairs suggest these categories may not be meaningfully separable from short text alone. Additional merges could improve overall quality.
 
-2. **Further category merging:** Analyze the persistent confusion pairs (especially HOME & LIVING / WELLNESS and ENTERTAINMENT / COMEDY) and evaluate whether additional merges would improve overall classification quality without losing meaningful distinctions.
+3. **Hyperparameter tuning:** Unfreezing more transformer blocks (top 3 or 4), tuning the learning rate schedule, exploring longer `max_length` (96 or 128), and using validation F1 as the optimization criterion could all yield gains.
 
-3. **Hyperparameter tuning:**
-   - Experiment with unfreezing more transformer blocks (e.g., top 3 or top 4).
-   - Tune the learning rate schedule (warmup steps, decay rate).
-   - Use validation F1 as the tuning criterion instead of validation loss.
-   - Explore longer `max_length` (96 or 128) to capture more text context.
+4. **Data-centric improvements:** Cleaning noisy or ambiguous samples and applying text augmentation (synonym replacement, back-translation) for minority classes could address the remaining class imbalance issues.
 
-4. **Data-centric improvements:**
-   - Clean noisy or ambiguous samples identified through the confusion analysis.
-   - Explore oversampling minority classes with text augmentation (synonym replacement, back-translation).
-
-5. **Ensemble or stacking (optional):**
-   - Combine DistilBERT predictions with the baseline model's predictions to leverage both contextual and keyword-level features.
+5. **Ensemble approaches:** Combining DistilBERT's contextual predictions with the baseline's keyword-level features could capture complementary signals.
 
 ---
 
