@@ -278,21 +278,11 @@ Given more time and compute resources, several directions could further improve 
 
 1. Misra, R. (2018). *HuffPost News Category Dataset*. Hugging Face Datasets. https://huggingface.co/datasets/khalidalt/HuffPost
 
-2. Misra, R. (2022). News Category Dataset. *arXiv preprint arXiv:2209.11429*. https://arxiv.org/abs/2209.11429
+2. Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. *arXiv preprint arXiv:1910.01108*. https://arxiv.org/abs/1910.01108
 
-3. Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. *arXiv preprint arXiv:1910.01108*. https://arxiv.org/abs/1910.01108
+3. Geron, A. (2023). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (3rd ed.). O'Reilly Media.
 
-4. Devlin, J., Chang, M., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. *Proceedings of NAACL-HLT 2019*. https://arxiv.org/abs/1810.04805
-
-5. Geron, A. (2023). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (3rd ed.). O'Reilly Media.
-
-6. Wolf, T., et al. (2020). Transformers: State-of-the-Art Natural Language Processing. *Proceedings of EMNLP 2020 (Demos)*. https://github.com/huggingface/transformers
-
-7. Abadi, M., et al. (2015). TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. https://www.tensorflow.org
-
-8. Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, 12, 2825-2830. https://scikit-learn.org
-
-9. Project Repository. https://github.com/SergeyNelyapenkoBU/Module-7-Milestones
+4. Team Project Repository on GitHub. https://github.com/SergeyNelyapenkoBU/Module-7-Milestones
 
 ---
 
