@@ -1,0 +1,987 @@
+Live from Kenmore Square
+in Boston and spanning BU's vibrant
+global campus, Boston University and
+BU Virtual welcome you to this week's
+live session. Turn on your
+camera, mute your microphone, raise
+your Zoom hand for questions, and keep
+your chat window open for important
+information. Now get ready to engage
+in an educational experience that is
+powerfully online. This is BU Virtual. Let me open the
+chat up. Sorry. Okay. Oh, you have a new
+color in the chat. Very good. So what we're
+going to do today is look at the,
+I have to get it. We're just going to
+talk about the final project, and then
+I'll go through that and answer any
+questions you have. Um, and let me bring it up. There we go. Okay. Um, and there's a
+lesson which, uh, you should review,
+but I wasn't gonna talk too
+much about that. Um, deployment and
+monitoring, uh, is an important
+subject, which I know very little about. So I'll, what is this doing? Let me move on here. Yeah, Thanksgiving
+break. No, no, no. This is
+the wrong month. Wrong, wrong semester. Three weeks to go. And let me just
+dispense with this. Of course, deployment's
+important uh how do you how do you take
+a model that you've created and put it
+in the real world um you've had some uh
+you have other teachers uh in other modules
+um who were who were teaching about
+uh databases and integrating with data
+sources and um i think I think that's probably
+a better source. Their entire, I
+was just looking at Medium, this blog
+service, article service, and
+recommending courses. And there's a
+couple of very good courses in deployment
+where they do an entire 16 lectures
+on deployment and monitoring and
+how to integrate your system into a
+business context. And that's probably
+the way to go, to do it in one.
+I wrote a lesson, read through it,
+to get some ideas. The main thing I would
+take away from that is that you need some
+sort of infrastructure that you're working
+within. There are systems which do it for
+you, and that's probably the way we're all
+going to go. So then it's a matter of finding
+the right system to integrate your product
+into the business. But a very important
+subject, which I hope that you
+take a look at. But let's return
+to any questions at all about
+everything. I'm just going to go through
+the final report. Matt, putting you on
+notice, maybe you can mention, you know,
+you can talk a little bit about what what
+good answers would be. I'll talk through the
+code part and I'll talk about everything,
+but maybe at some point you can
+chime in with some advice about how to
+answer things well. But are there any
+questions about anything whatsoever? I
+have taken care of all of the regrade
+requests I have. Sometimes people send
+them to me by email, so i may have missed
+one or two of those but happy to happy to take
+a look um anything at all sung yes you
+always have a question so yes go oh so professor
+um as i mentioned for milestone two um
+for me i did merge the uh some of the categories
+could only make sense yeah well because
+because two of them are definitely the same
+yes the one that only differed by the yeah
+so that's obviously not a mistake right that
+it was done so there was no way getting
+around otherwise i know for sure it would have
+been wrong so i also made some recommendations
+i did you look at but in that case
+did you look at the um at the samples to see
+if they were in any way different i didn't
+go into that but the fact that they came
+from the same newspaper and somebody wrote it
+incorrectly it i think that was a mistake in
+labeling somebody made a mistake yeah so i
+mean because i knew that there were other
+categories i just looked at the ones that are
+made since i merged those there could be
+more so um i i made some recommendations at
+the end when i was learning reflection what
+i could do to make it better do you expect
+us to incorporate those recommendations for
+the final paper or just go oh we've done so far
+basically no explain what you did give me
+your reasoning yeah so can i go up beyond
+what i did for milestone to for the final
+project for the coding and as too much as i
+can to make it as good as possible is that
+you should absolutely make it as good as
+possible i mean i don't i mean i don't know
+what's good enough and there's more i mean i'll
+do the best i can as good as possible and
+then you don't put limits on how much better
+you want us to do but there's no limit on
+that right there's no upper bound on how good
+you can be okay and then we're not getting
+a notebook we're just taking the notebook
+and then making our own and should we start
+with a brand new let's let when i start to
+review you can ask whatever question you
+want the sky is the limit there we go yes john
+okay great thank you yeah any other questions
+about anything in particular um you got
+your grades for milestone one and matt and i
+just talked about grading milestone two
+um we'll we'll try to get them back before
+your final uh is done but i don't know if that's
+possible we'll try well that's all
+i can say um but any questions at
+all about anything yes james yeah i have
+a question it's not related to milestone
+two okay it's related to deployments So
+when we deploy our model to, let's say,
+another customer's environment, should
+we be using their cloud system or because
+it's not trying? You can use whatever
+they want you to use. How does that work?
+Like, how does that work? I don't know
+much about it. You don't know? Yeah,
+it's interesting. There's a lot of
+different systems. Maybe somebody here among
+the students. um there's a lot of
+different systems but basically my understanding
+is you're going to be told to use the
+xyz system that we use in-house and you're
+going to have to learn you know what i
+mean they will use uh either some standard
+or boutique you know maintenance product
+and uh unless it's a very small little
+company you're not you're not going to
+have much to do with it think i mean the system
+administrators are probably going to
+run things you'll get reports i mean the
+main thing is you get reports on what you know
+how it's doing and the the most important
+thing for you because probably you're not
+you're not in there maintaining it uh as
+a system right uh you know part of the system
+but what you will have to do is get reports
+on what it's doing some kind of monitoring
+and see if it's drifting see if things
+are changing because okay you know i mean that's
+probably the major role for the data
+scientist i i i'm flipping about about this
+material because i've never done it um but
+i'm also flipping about a little bit because
+it's usually out of your hands in a in a normal
+size company unless somebody tells me
+something else somebody who knows something
+among the students here um okay usually you
+hand it off to somebody else that's that's
+my understanding and then you've got to
+monitor it right um okay you know maybe in a
+smaller company you're in charge of all of it
+i don't know um maybe you start your own
+company maybe you're you know what i mean so
+it's right it's hard to say but and there's
+a bazillion different approaches you know i
+looked at this and it was so there's just
+so many little details depending on you know
+where you are and um a lot of models are not
+deployed outward right they're deployed inside
+for monitoring or for whatever reason
+um yeah mommy said you gave it oh i heard
+okay i thought somebody had a comment um so i
+i'm sorry i'm not i'm not very knowledgeable
+about these things. And so I hesitate
+to tell you much about it. But have
+a conversation with chat and look for,
+you know, look for blog posts. I've
+read a bunch of them. There's a very good
+looking, if you're interested in this,
+there's some very good resources I could send
+you. There's a whole course that somebody's
+designed about deployment sure and
+please you know if you remind no let me make
+a reminder okay thank you um but i i i would
+just be honest it's something i've never
+i've never done and so i'm hesitant to be
+you know the teacher about it anyway thank
+you let me see uh vid about deployment i'll
+i'll put it on uh, I'll make an
+announcement. Okay. Cool. Thank you. Yeah. Okay. Yeah. Any, anybody else
+has anybody here, uh, done any deployment
+or monitoring of a product
+that you created? Anybody? Databricks. I've heard of it.
+Is that a system? Michael, Is that a
+deployment system? I've heard about
+it as well. I think it's supposed
+to be kind of a platform where
+you can, you know, conduct pretty much
+anything you need in the entire data science
+life or the data life cycle. Yeah. I mean,
+you hand it off to a system and then
+you got to learn the system and they all do
+the same sorts of things. but I'm hesitant you
+know I really haven't wanted to get into
+you see one of the things that bugs me
+you know you read some interesting looking
+blog post and it turns out all they want
+you to do is use this one application and
+they're gonna tell you how wonderful it is
+it's like I'm not gonna learn anything by just
+looking at this one application so I've
+really resisted that and we did we We did
+use Optuna in 603, and there are systems for
+tuning, helping to tune neural networks.
+But I've kind of resisted that, and you
+may have to do that in a company. They may
+say, look, you're going to use this thing,
+and we all use this. But Databricks, I
+think, is one of the options, and I looked
+at a couple of them, and there's an API and you
+know you follow the instructions and I
+don't know it's a little it's a little
+unsatisfying to me that kind of computing but
+that's probably the way it's done yeah yeah
+for sure I'm not too familiar with it as
+well but I think one thing I do know I think
+to James's question I think Databricks plugs
+into the major cloud platform so I'm sure
+yeah I don't know yeah okay yeah that
+makes sense then it makes sense the podcast has
+a full framework to everything programming
+framework data link ai everything yeah yeah
+i and i sure you're gonna have to learn
+many such systems in your career you know
+change companies you gotta learn a new
+infrastructure um but anyway uh sound yes
+another question best i have a general question
+so um cloud just acquired biotech company
+that specializes in development of using AI for drug development company for $400
+million, something. I could be all, but
+something like that. What is the industry
+headed in the direction of integrating AI
+to different domains at this point? Have
+you heard? Because everybody's trying
+to do it, yeah. Because there'll be
+cloud and open air chat GPT pretty much
+those are two leading AIs right so they
+will be the ones I think Claude's I think
+Anthropik is going to pull ahead that's
+what I'm reading I'm not I'm not believing
+that chat GPT is going to survive
+I don't know I'm going to switch
+Claude I just haven't done it in the middle
+of the semester but anyway Anthropik
+yeah they're building all sorts of like this
+mythos you know, for critical infrastructure
+and cybersecurity. They're building
+out, that's a lot of the
+data center work. That's my
+understanding. And I'm just reading about
+this secondhand. I don't have
+any contacts. But you know, the
+data centers, they're not just running another
+version of ChatGPT, you know, they're
+running a lot of specialty models
+for companies um and boutique models based
+on you know one of their foundation models
+and then they they build it out um but
+i'm i'm i'm very interested in anthropic
+i i i do they own the data center that
+they have or they're leasing it from somebody
+else do you know i don't have any
+detailed information on that okay i just
+wanted because i think companies are building
+their own and the others are renting
+sure okay okay thank you but i i'm just
+reading what you're reading i don't have
+any yeah when i read the news yeah i've
+read a couple of blogs yeah but i read
+somebody called uh named gary marcus and and he
+is uh he is very critical of chatubuti and more
+enthusiastic about claude so i guess about
+anthropic in general because what they're
+trying and what he has argued for a
+long time is that the scaling is is going to
+run out of steam and it is it has and that if
+you want progress you have to build in more
+kinds of functionality reasoning and logic
+and planning and all the things that we've
+done in ai forever he's an old time ai guy
+um but but just just this uh text-based
+model you know uh it's running out the scaling
+is running out of steam. You can't just
+keep scaling and it'll get better and better
+and better. And AGI, which is total BS. Uh, anyway, some
+people, the full framework that the only
+gave me this due to sheer power, one
+could use for battery. Yeah, yeah. That's
+what I've been reading about. Uh,
+I haven't finished reading about it, but
+it's, it's a really disruptive time for
+lots of reasons. But we'll see. We'll see. Never a dull
+moment, right, in this career? Yeah,
+thank you. Anyway, okay, let's move on.
+I'm happy to give my unlettered opinions
+about many subjects, but I prefer to
+talk about the assignment. Okay,
+let me share. and let me see if that's
+yes there we go i'm just pulling this up
+on uh on uh on github so uh okay so you know
+when it's and it's due you have many days
+to do it um there's going to be two parts
+okay remember this is a group submission uh
+and you have two parts okay there's a notebook
+and this is the let me just i'll catch it but
+a notebook and then a technical report uh
+i said eight to ten but eight is probably
+closer to the mark um but i want this to be,
+and you're going to have some graphics and
+appendices, whatever. Um, so don't worry too
+much about the length. Um, but, but this is to
+keep you from handing in three pages and
+thinking you're done. Uh, so the idea of the
+notebook would be, and you know, I've
+done this in my career. I've done a number
+of projects, just not for a business,
+but for my own work. And when you
+finish a project, Boy, do you
+want to archive everything and make
+sure you have it. You know, if you don't do that,
+then you have to, later on, you find
+out you want to revive something or
+somebody asks you a question or somehow
+it comes up. Years later, somebody will
+write you a letter, you know, asking
+about some publication and wanting to,
+you know, whatever. And when you haven't
+kept, when you haven't done your
+final accounting, it's a problem. So get
+used to doing it. I know it's a pain, but
+you have to do it. But basically what
+you're going to do is have
+everything, you know, the pipeline,
+however, whatever you did with the data
+set, your final model, you do not have to
+include all the, it's not the sum
+of everything you did in milestones
+one and two, visualizations, analytical
+It's a repository so that you could pick
+it up again and read through and get all
+the significant things that you understood that
+happened and all the code and, you know, so
+you could pick it up in a year. If you've
+ever written a lot of code, I've said this
+before, when you're writing a lot of code,
+you can look at something that you just wrote
+last week and you go, I have no memory of
+writing this. i have no idea what it does and
+if you don't comment if you don't provide
+guidance uh you're in trouble you know and
+also you know we want the graders to to look at
+it and this is your final chance to to uh
+present the code in a professional way um and
+so let's uh let's look through it's a Each of
+these is 100 points. So, you know, divide
+this up however you want among your
+team. I try to make these, the milestones
+and the various things, the submissions,
+I try to make them so you can divide
+them up, right, and check with each
+other. I always want you to get together
+and think about it. But keep this as
+organized as you can. Um, so a very short,
+and, and, you know, probably a lot of this
+is cutting and pasting from your, your,
+uh, your milestones. Uh, so maybe, you know,
+one person does this and two of you work
+on the report. If I had a team of three,
+that's what I'd do. Cause this is a little
+easier, I think, because really you're trying
+to boil down what you did in one and two
+and then finalize it. And, you know,
+you're going to have one final model,
+you probably did most of the work
+in Milestone 2. But here's your
+chance to describe, you know, why
+you chose it. And tell us, you
+know, all of these details. Anything else
+you really need to pick this up again
+and start with the same understanding
+that you left it with. Optimization, callbacks,
+you know, just give us everything. um and
+this is all simple stuff right how the test
+set was kept separate yeah maybe you can
+ignore that particular one that's kind of easy
+we use the code you know we use the split
+um what metrics you know these are both uh
+unbalanced in different ways uh there were
+unique problems in the two and um and then
+show us you know show us how you what you
+did um confusion matrix these are pretty big
+but do the best you can um i know that they
+can get pretty pretty large um do the best
+you can um and this is basically you know this
+is just good coding um cut and paste from
+your, from your, um, from your, uh, milestones. There is the
+issue of whether you need to run
+it all again. Um, I think you need
+to, we need to see it and my apologies
+for that. Um, but I need to see
+that the entire thing runs. Uh,
+and I need to see that. I just need
+to see the output. So I have two weeks,
+it'll be fine. Okay, then the
+technical report, PDF form only, please. Just don't do anything
+else with PDF. You'll write it in
+Word or whatever. You could potentially
+do it in a notebook and then print it out,
+but make sure that it doesn't get all *******
+up when you do that. That's not always a
+good way to do things. When will you release
+part A notebook? what I don't think
+I released it I want you to make it yeah I
+want you to write it I didn't give you a
+template for this is that what you were
+asking Ricardo yes that's correct I yeah
+I'm a little bit late later so I do apologize
+but you can write it you just take one
+of your milestones and edit it okay got
+it sounds good yeah okay yes jenny you
+were right um okay so technical report uh again 100 points so
+100 100 uh and you know you really
+want to make this pretend you know
+this is this is you know what you're
+You're submitting to your boss, and
+you have a promotion coming up in a
+month or two, and you know, this is
+what you want to use to show your value to
+the company, right? Professional
+documentation, thoughtful analysis, evidence
+-based conclusions. Put a title page, okay? And just use this
+organization. Use these letters. Helps us. human is
+going to read this and make it follow this.
+You don't have to. In fact, it's probably best not to say one, two. It gets a little clunky
+when you do that, but definitely have
+this as a rubric heading and describe the
+problem. Again, humor me. There's a plausible
+business context for this. You've already
+done some of that. And again, much of this you can summarize
+from your You could give some
+examples, the source, what the
+challenge is. Show us some examples,
+you know, and summarize
+what the features, how important they were. If you have
+anything really heavy, put it
+in an appendix. Like list many, if
+you don't want to, most graphics, you
+don't want to go away. over one page.
+You want something with text around
+it. If you have multiple, put that
+in an appendix. Talk about the
+methodology. How did you choose? What preprocessing did you do? For Food 101, you
+certainly had to do some normalization
+and resizing. If you Um, how much vocabulary
+did he use, right? Most of these messages
+were pretty short. Most of the texts
+were pretty short. Um, how, how, uh,
+you know, how you chose it, how you
+chose the final model, uh, how
+you trained it, parameters. Uh, and this is, this is, uh, for, you know, Anybody
+who's well-versed in the subject could
+read this, okay? And let's see,
+yep, yep, yep. Quantitative results
+show the specific, you know, metrics, explain
+what they reveal. Here's where some,
+you know, you might want to,
+well, let's say if you want to talk
+about whether you, yeah, I mean, either
+here in the preprocessing part or, you know,
+interpretation, why you merge, you know, why you merge
+those classes. Um, and then I want
+you to, uh, talk about what
+errors occurred, um, model related
+limitations. If, if it took too
+much processing power, you weren't
+able to do it. Um, and then if you
+were going to have more time, what would
+you have done? You know, you might think
+about augmentation. You might, uh,
+think about changing the architecture. You
+might think about, you know, whether
+you changed, you did something different,
+used different embeddings, or
+maybe, you know, different techniques,
+and a thoughtful reflection on what you
+learned. And then at the end, you'll tell
+us about the AI use. If the best model
+was still falling short, should we improve
+on it? Alfred, what do you mean was
+still falling short? You mean it wasn't doing as well as you
+thought, or? Yeah, kind of. The
+model was not much better than what
+I started with, but it was still
+kind of more. It was not much better
+than the baseline? Yeah, it was better
+than the baseline, but still, let's
+just say the accuracy was still
+below 80%. Oh, okay. What do you mean,
+should we improve on it? I mean, what
+were you thinking? I mean, I'm not sure
+exactly what you mean by that. You mean,
+should you mention it as potential
+improvements for the future or should you
+keep working on it? Yeah, I was wondering
+if I should keep working on it, yeah,
+or mention it as something we can
+improve on later on. I forget what we
+did at the end of, I mean, I'm sort of, I
+was sort of assuming that you had, I don't
+remember exactly the wording for
+Milestone 2. did I say this is your
+absolute best model? I think I was probably sort of vague about that. If you have time, sure, try to try to improve it. What did I say here? Yeah, I mean,
+I didn't think that you were
+going to be doing a lot of work after
+Milestone 2. So, I mean, it's
+sort of unfair to ask you to go
+redo everything. I'm more
+interested in how you describe
+your workflow, how thorough the
+workflow is. You know, these data
+sets are hard. That's why I chose
+them. I think they're fairly realistic. They're
+big. They're messy. There are, as some
+pointed out, you know, there are
+duplicate categories. I mean, these are
+messy data sets. So that's what I wanted
+to see. They're hard. So which one did
+you use, Alfred? Oh, I actually, I
+use the text data set and I condense certain
+classes, but I noticed that even though the
+final model got a result, I think somewhere
+in the 75% to 78 % range, I expect it
+to be maybe somewhat, I thought 80% or high
+would be ideal, but maybe I'm wrong about
+that. I don't know. Yeah, you're not going
+to get above 90% in this. That's probably
+not too bad, actually. Oh, 75% not
+too bad? Okay. I was thinking 80
+% was not too bad. No, don't worry about
+that number so much as your workflow, how
+you thought about it, because some data sets
+are just resistant. This is a really
+messy data set, but unfortunately, a lot
+of data sets are messy. You're the person
+who's supposed to make sense of them. So
+don't worry so much about the specific
+numbers involved, and don't spend another
+week trying to fine -tune it. i mean if you
+want to that's great what what uh what
+what uh what model did you use did you
+use bird or something like that alfred i
+wanted to make sure it would run quickly
+so i used this distillbert model but
+it still took about an hour and a half to
+run with t4 yeah okay and you only got
+75 percent actually more like 76
+77 for testing and validation
+yeah now i remember now. I don't
+remember what I got. Look, if that's
+what you got, that's what you got. I'm
+not going to, in this course, in this
+module, there hasn't been an absolute bar,
+you know, that you have to get above.
+And people have very different machines
+and so forth. So, yeah. Professor, for me,
+when I used Distilber, so I started with the
+baseline of macro at 47%. When I got to
+Distilber, I only got up to 50 percent for the
+f1 macro so because i guess i did my different
+than his i didn't get beyond 50 so that's
+what i got is that yeah that's but that
+is the model that i got and i did explain
+what i would do next can i leave it like that
+do i have to do look i'm not gonna i'm not
+gonna put a number here and say you know
+to get an a you need above so many percent
+i i just don't think that's fair uh people
+have very different environments um i
+don't know i'm i'm more interested in as i said
+your analysis uh and being thorough and
+documenting it carefully um so even for um
+milestone two i left it like that because for
+me to try 10 different versions i would need
+like a whole bunch just running the 10 different
+versions so yeah well if you can get
+better result that'd be great but i'm not again
+i'm not judging you on the final number
+okay i mean i documented what i did exactly
+because you asked the same thing like 10
+different ways i explained it in 10 different
+ways i didn't know what else it does i just
+left it like that okay thank you just just to
+give you a comparison i spent oh a good two
+weeks at the end of uh last i don't know
+when it was last semester and i was
+trying to get some of these diffusion
+models to run. And I failed utterly
+and completely. I mean, I just, it just
+never, I never got it to work. But I
+documented everything. I had all of my attempts
+written down. And I, you know, I had a
+notebook where I kept trying, because I
+want to go back to it. I want to find out
+what I was doing wrong. And I'm not saying
+that if you failed completely and
+utterly, that it's all fine. But But you
+don't always get the results you want.
+That's just life. So I'm more interested
+in your workflow. I want Matt to
+comment in a moment. Let me
+take Alfred again. Oh, I just realized
+something. Maybe I meant wrongly, but
+I'm also into it. It implies something
+about potentially later improving on the results
+by doing a little bit of fine-tuning.
+Not a lot, but a little bit. I meant
+fine-tuning. I didn't mean changing models
+and going and doing a completely different
+thing. Okay, I'm not going to do
+that. you work with things you may find
+sure but i was not intending this to be
+another massive coding session i was kind
+of wrapping it up and if you want to do
+some fine that that my impression matt
+do you want to do you want to weigh in here
+and talk about um i i how let's talk
+about what you noticed when you were
+grading milestone one and how you know
+what's the right way to you know, when you
+describe for the text. Do you have any advice? I think it's just a
+matter of explaining what it is that you
+did. I mean, I think if you just go back to
+the code, it's just following along with
+what the requirements were and just explaining
+it as best you can. And, you know, there's
+three of you that, well, on most teams,
+there's three of you. And so, you know,
+pass it to the next person and see if it
+makes sense to them. Right. Remember John's comment, concise and precise. Was that it, John? You got it right. Yes, that is my intention. Precise and concise. I don't know. And when
+we say 8 to 10 pages, yeah, 8 is probably
+the minimum, but 10 is about right, too. Don't
+give us 40, please. Right, right, right,
+right. And, you know, I have found, folks,
+that AI doesn't do a good job, very
+good job, usually, at these text things. They
+can organize things, but they're very
+generic. It's very middle of the road. It's
+very boilerplate-ish. And I've used chat to,
+not Claude so much, but chat to help with
+lessons, but I always end up rewriting it.
+So please don't get caught into letting
+chat figure this out, because it usually
+produces substandard prose. It's average
+substandard. Matt, you're a writer, so you
+know this, right? Oh, absolutely. And
+the other thing, too, is that a lot of times
+what they'll come back with is it'll look
+like a bullet point list, you know, almost
+like a presentation. Yeah. You want a narrative,
+right? Right. Don't rely on the
+AI to give you a good a good narrative.
+You really need to incorporate
+things in there and not just, you know,
+list a bunch of things, you know,
+where that makes sense or a table where
+that makes sense. But don't a bunch
+of bullet points for every. Yeah. ChatGPT
+loves to do that. Yeah. So just be
+careful of that as well. Try to try to
+use your prose and, you know, practice
+writing a little bit. Yeah. Yep. Good. Good advice. Anyway, any
+other questions? I don't, I didn't
+really have anything else
+planned, folks. And I'm happy to
+talk some more. Sung does, she have
+her hand up. Oh, Sung, sorry. Yes, sorry. Hi,
+so I have a list of questions, so probably
+about everyone else. I'm assuming the
+notebook should be, I'm doing IPNYB,
+and then EDA you're referring to as modeling
+and the pipeline is modeling and EDA.
+and the final mod i'm assuming is the
+one that did the best and for technical
+report eight to ten pages in pdf form does
+the title page and the aiu's reference
+count towards the eight to ten pages or
+no matt as a writer title page i don't
+think so no and the appendix is no and
+and don't put a ton of stuff in the appendix
+either when you're using your your your
+plots and stuff you know use them
+judiciously but try to incorporate them in your
+narrative as well don't just throw them all
+in the in the back okay when you say the
+final model that's the model that worked
+the best i'm assuming that's the one that you
+would choose to deploy okay so can i like use
+my judgment as to what graphs going to appendix
+part and what goes into my paper portion
+sure sure and then can i have a section for
+reference itself i'll probably have reference
+sections look up things is that allowed
+or not loud besides ai appendix or it's allowed
+i don't need think you need to do it but
+if you want to give references that's fine
+don't go crazy it's not a research paper it's
+a it's a it's a paper about your experience
+so do you want the paper to help but if you
+referred to some source and that helped you
+sure sure yeah and then do you want three
+pages of references oh no it'll be it'll be
+like five or six but i have to look up the
+because i don't five or six pages or five or six
+or five or six bullet like list of references
+yeah so and then for before i convert the
+pdf the word document can i use font 12 times
+the wrong one page one each margin 12 is
+good yeah okay Okay. And time to roam is
+okay with you? Do you want some of the fun
+time? Make it readable. Okay. Thank you. Anyway, happy to talk
+more on Piazza or, you know, any way that
+you talk to the LFs. They'll be grading
+it. And we look forward to seeing
+what you have. Let's see. If
+the best model is still falling
+short. Yeah. Okay. no more okay anything
+else folks i uh we could end a little early
+i don't really have anything else to say
+um one last thing so for first as i mentioned
+that my macro f1 they're only a few
+percent better for the f1 for distoper but then
+when i use a regular f1 it was at closer
+to 60 but i had to use macro f1 because
+it's imbalanced data so then it corrected
+itself but then i don't have that output they
+otherwise have to run that also um is that
+normal that it would be lower with the
+macro f1 versus regular f1 oh oh sure yeah
+these can change okay what should i have
+really gotten because 50 something to like close
+to 60 it's not that much different i mean
+still better these data sets are hard
+yeah how would you have done as you get at least
+10 points more like then what I would have
+done basically say again how would you
+have done a second at least 10 points more
+out of the model because even at this point
+if I do 10 miles I was doing I did text with
+this dober I probably would have spent
+some time on pre -processing this is a
+really messy data set and i don't know i i i
+didn't do much better uh the time it's not much
+enough if i had two weeks to just do better
+i can do this but there's not enough time
+with the other class yeah so i mean realistic
+and knowing what we have at this point
+and if i would think ahead to do something
+else how would you would you do the pre
+-processing better before you go to modeling so
+you don't have end up like this for like
+it's not just us and me basically i thought
+there was uh i i don't I don't know that I
+can, I did this a while back, but I felt that
+there was probably some preprocessing
+or there's some, just handing it to Distilbert.
+I felt like maybe this could have been,
+I felt like there was more that could be done
+with the preprocessing and more with maybe
+aligning Distilbert, training it on something
+that was similar but not the exact data
+set and then trying it again i'm not sure
+um it's a difficult data set i mean when
+i wrote it because of the model i put down
+it did a lot better because it is considered
+a lot better based on the fact that the
+way it was set up but real world 50 60 is
+not really anything you need to be close
+to the 80 or 90 right important thing is
+where are the errors are they i mean did the
+error that's why a confusion i I didn't
+spend enough time talking about confusion matrices
+and how to adapt from them, and I'm
+going to do that in the new course I'm
+designing for the first semester. But if you
+look at the confusion matrix and you really
+dig in and start looking at where it went
+wrong, see, that can tell you, that can give
+you some real information about the fit between
+your model and the data. And, you
+know, you might find that two categories are
+really pretty close. Now, it would depend
+on your business objective, right?
+I didn't tell you don't have
+anything specific to work from, so
+it's kind of hard, right? But if
+your business objective
+involved, you know, you could somehow
+collapse this down to a smaller number of
+classes, maybe that, you know, then you'd
+have better accuracy. So there's a lot of
+missing pieces here. So I have some in
+confusion. I did the confusion matrix after
+I did this doper, but there's some are almost
+zero, close to zero. So for those,
+should I drop those? What would you do
+with something that's almost your very
+small sample size? You mean, I'm
+sorry, the category? Yeah, I did the
+confusion matrix after this doper, and then
+some categories, a few that were close to
+zero. with not too many sample sizes
+for the headlines and the summary that's
+concagulated? Right, and that penalizes the
+final result, yeah. So would you drop
+those? That's a very reasonable
+thing to do. But the point is that I have
+given you a hard assignment because
+I haven't told you what purpose
+this is for, right? And the business
+motivation for the whole project and
+the domain knowledge, And you know, these
+are going to give you pointed, you know,
+you're going to be able to look at the
+data set and say, you know what, I really
+want to cut these out because they're
+really got nothing to do with what
+we're trying to do. And you might get a much better result
+if you can find, if you can
+tune it towards a particular purpose. Right. But I'm just
+giving you this vague thing. Oh,
+invent a business purpose, which
+is, you know, and then see, you found
+some duplicate. You know, you were
+talking about some duplicate categories.
+There were more, actually. That's
+exactly the kind of thing that makes
+sense, you know. Yeah. There's a lot
+of categories, right? I mean, this is a
+very confusing problem because there's so many
+different categories. And some of them
+didn't have – it was so unbalanced. So this
+is where domain – I hate to just push it
+off on this, but I think realistically,
+domain knowledge and – I mean, when I have
+done work, for example, I was – I was did a
+project with somebody on musical instrument
+recognition, having audio files, and I
+know a fair amount about it, and so did
+he. And so we were able to do some pre
+-processing that made it, we got very good
+results because we both were musicians and knew
+something about it, and we knew exactly
+what we wanted to do. The goal was clear
+cut, and so the pre-processing
+was much simpler. uh but in this case i
+didn't give you it's a little bit unfair
+i didn't give you an exact business purpose
+and and and you know oh domain knowledge
+about these little snippets i don't know
+it's hard to say what that would be but um
+one last question i mean given i'm just saying
+don't stress about it because i know a very
+unstructured problem in some sense and
+i'm more interested in and i think matt
+would back me up on this we are more interested
+in your reasoning and explain your analysis
+and your reasoning what what choices did
+you make given that this was a difficult
+data set in real world you have such a
+highly imbalanced all those cats it's possible
+you you could be missing categories also
+most likely most i'm sure it is missing
+category you should probably split better
+how would you go by splitting better making
+the category someone didn't do it what would
+you do because it's most likely that's the
+case with this data set i don't i don't
+have a specific recommendation there i
+mean but uh about the most you could do with this
+one is say you know these categories are
+really the same thing uh in general and
+you combine them but for a specific purpose
+you know a specific business objective you
+might find that the And, you know, there's
+so many things you could do, you could
+take this data set and you could do unsupervised
+learning on it, you know, and then see
+where the groups are. And you could label
+them and see, you know, you could, there's
+a lot of things you could do to try to
+explore how close, you know, how separated
+these things are. And then that would give
+you a sense for, you know, the natural
+groupings in these texts. and in these samples
+but you know I didn't ask you to do that
+there's a lot of things you could do to explore
+the data further I think it's a vague
+agenda you know that that's maybe a little
+hard to do okay thank you yeah you're
+asking all the right questions as I like to
+say let's see yeah no no you're not gonna get
+great results on either one of these. That's
+why I chose them. I just checked my
+team achieved a test accuracy of
+60. Oh, that's good. That's good. Marjorie, that was,
+oh, yeah, yeah. That's good. That's actually
+very good. Yeah, it's hard to
+get good results with this. I
+mean, we were hoping above 80 percent.
+That was our original, you know, because in
+Milestone One, you were asking for a
+target that, you know, that we were, that we
+had to set. And we were hoping that we would
+do at least as good as 80%, but it's not, it's
+not what we got. So what's more interesting
+here. And again, there's always things
+to do to go forward with this. But one thing
+that I would say, you know, in the three things
+you might think is, is to do a little more
+EDA on it. Once you And then you can go
+back and say, okay, what have I learned
+about this data? What are the groupings?
+Which, looking at the confusion matrix is
+really interesting, but it takes time. It's
+hard. You know, you got to look at them and
+then compare them and think about, but it
+tells you where your model, exactly where
+your model went wrong. Classification is
+great because there's so many different
+metrics. And to explore those metrics and
+think about different classes, why did the,
+you know, why did some classes get
+classified very accurately and others not? Did
+they get confused? You know, you could
+see that certain categories maybe
+are ill-defined, you know, and you're
+constantly confusing them. So, like when you
+do digits, you know, and the 4 ends up
+looking at the 9 or the 3 ends up looking at the,
+you know, and there's certain letters that
+just are going to look the same and they're
+going to get confused. And this tells you
+something interesting about your data, whether
+you can solve it or not. But a next step
+might be to go back and really do some more
+EDA on this, given now that you know how well
+it did on all, you could look at the results
+for each class, how well did it do on each
+class, and look at the confusion matrix and
+see where the problems are, and that might
+tell you, again, given domain knowledge,
+given a more specific goal, it might tell you
+that these two categories are getting confused,
+but you know what, we don't care, we'll
+lump them together, you know, for whatever
+we're doing this for. And so there's a lot
+of things you can do. And looking back at
+your data through the lens of a model, it's
+hard to do with text, I would say.
+But looking back at it is an
+interesting thing. You know, lots
+of things to try. So any other
+questions? Let's see. Did you do
+macro F1 before that? I got that
+also. Oh, good. Yeah. Okay. Any other good questions?
+Good questions. Smart group. Okay.
+We're looking forward to reading
+your final reports. And I think
+we'll stop here. Joining this week's
+live session. This has been a
+presentation of Boston University
+and VU Virtual.
