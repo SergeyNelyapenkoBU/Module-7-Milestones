@@ -1,0 +1,6 @@
+Model,Test Acc,Macro F1,Val Acc,Best Epoch,Params,Train Time (s)
+Baseline (Emb+Pool),0.5638,0.4987,0.5613,11,"1,286,175",37s
+LSTM,0.5342,0.4616,0.5405,11,"1,319,199",37s
+BiLSTM,0.5602,0.4867,0.561,6,"1,356,319",37s
+Enhanced Baseline,0.5536,0.4889,0.5427,3,"1,299,359",37s
+"DistilBERT (final, full data)",0.6723,0.6104,0.6737,14,"66,977,311",158m 2s
